@@ -9,7 +9,7 @@ public class App {
 
         double conta = 50.0;
         if (minutos > 100) {
-            conta += (minutos - 100) * 2.0; //Conta é igual a conta onde oq utrapassar 100 ele vai pegar e fazer vezes 2 e somar com o valor a ser pago até 100 minutos q é o limite
+            conta = conta + (minutos - 100) * 2.0; //Conta é igual a conta onde oq utrapassar 100 ele vai pegar e fazer vezes 2 e somar com o valor a ser pago até 100 minutos q é o limite
         }
 
         System.out.printf("Valor da compra %.2f%n", conta); 

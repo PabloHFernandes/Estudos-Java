@@ -25,5 +25,5 @@ public class ex6 {
         sc.close(); //Fechamento do scanner
         }
     }
-    
+        
 }
